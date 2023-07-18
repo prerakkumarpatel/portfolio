@@ -1,0 +1,57 @@
+.balls {
+  width: 5em;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center; /* Updated to center horizontally */
+  height: 100vh; /*Added to align vertically */
+  margin: auto; /* Added to center horizontally */
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0c0513;
+  /* background-image: url(./Assets/pre.svg); */
+  background-repeat: no-repeat;
+  background-position: center;
+
+  animation: fadeBackground 4.2s ease-out;
+  z-index: 999999;
+}
+
+.balls div {
+  width: 0.8em;
+  margin: 5px;
+  height: 0.8em;
+  border-radius: 50%;
+  background-color: #0b03f7;
+  transform: translateY(-100%);
+  animation: wave 0.4s ease-in-out alternate infinite;
+}
+
+.balls div:nth-of-type(1) {
+  animation-delay: -0.5s;
+}
+
+.balls div:nth-of-type(2) {
+  animation-delay: -0.3s;
+}
+
+@keyframes fadeBackground {
+  from {
+    background-color: #101010;
+  }
+  to {
+    background-color: #fafafa04;
+  }
+}
+@keyframes wave {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
