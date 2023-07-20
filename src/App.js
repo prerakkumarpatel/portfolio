@@ -4,6 +4,7 @@ import Footer from "./UI/Footer";
 import Home from "./Components/Home/Home";
 import { ThemeProvider } from "./UI/Theme/ThemeContext";
 // import Fade from "react-reveal/Fade";
+import Navbar from "./UI/Navbar";
 
 import {
   BrowserRouter as Router,
@@ -26,12 +27,11 @@ function App() {
   return (
     <ThemeProvider>
       <div className="App">
-        {" "}
         <Router>
           {load && <Loader load />}
 
           <div className="App" id={load ? "no-scroll" : "scroll"}>
-            {/* <Navbar /> */}
+            <Navbar />
             {/* <ScrollToTop /> */}
             <Routes>
               <Route path="/" element={<Home />} />

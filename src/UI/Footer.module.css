@@ -1,27 +1,24 @@
 /* --------- */
 /* Footer */
 /* --------- */
-.footer {
+.footer-copyright {
+  width: 30vw;
+  margin-left: 2vw;
+  color: aliceblue;
+}
+/* .footer {
   position: fixed;
   bottom: 0;
 
-  /* margin-top: 0.2vh !important; */
   margin-bottom: 0.2vh !important;
   font-size: 2vh;
 
   width: 100vw;
-  background-color: rgb(23, 23, 23);
-  color: white;
   vertical-align: middle;
 }
-.footer-copyright {
-  width: 30vw;
-  /* position: fixed; */
-  margin-left: 2vw;
-}
+
 .footer-icons > ul {
   margin: 0;
-  /* position: fixed; */
   margin-bottom: 2vh;
   font-size: 3vh;
 }
@@ -29,17 +26,12 @@
   position: fixed;
   bottom: 0;
   right: 0;
-  /* margin: unset; */
   font-size: 3vh;
   margin-right: 2vw;
-  /* margin-bottom: 0.2vh; */
-}
+} */
+
 .social-icons {
   display: inline-block !important;
   padding-right: 15px;
   padding-left: 15px;
 }
-/*
-.blockquote-footer {
-  color: #a588c0 !important;
-} */
