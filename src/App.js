@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Loader from "./UI/Loader";
 import Footer from "./UI/Footer";
 import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
 import { ThemeProvider } from "./UI/Theme/ThemeContext";
 // import Fade from "react-reveal/Fade";
 import Navbar from "./UI/Navbar";
@@ -35,9 +36,9 @@ function App() {
             {/* <ScrollToTop /> */}
             <Routes>
               <Route path="/" element={<Home />} />
-              {/* <Route path="/project" element={<Projects />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/resume" element={<Resume />} /> */}
+              {/* <Route path="/project" element={<Projects />} /> */}
+              <Route path="/about" element={<About />} />
+              {/* <Route path="/resume" element={<Resume />} /> */}
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
             <Footer />
