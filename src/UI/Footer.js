@@ -1,11 +1,7 @@
 import React from "react";
 import classes from "./Footer.module.css";
 import { NavLink } from "react-bootstrap";
-import {
-  AiFillGithub,
-  // AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 import Nav from "../../node_modules/react-bootstrap/Nav";
