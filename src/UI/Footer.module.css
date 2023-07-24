@@ -5,7 +5,6 @@
   width: 30vw;
   margin-left: 2vw;
   color: aliceblue;
-  display: inline-block;
 }
 /* .footer {
   position: fixed;
@@ -32,25 +31,7 @@
 } */
 
 .social-icons {
-  display: inline-block;
+  display: inline-block !important;
   padding-right: 15px;
   padding-left: 15px;
-}
-.navbar {
-  background: #000;
-  display: flex;
-  position: sticky;
-  max-width: 100vw;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: space-between;
-  align-items: center;
-}
-.icons {
-  justify-self: end;
-  display: inline-flex;
-  margin-right: 0%;
-  justify-content: flex-end;
-  /* width: max-content; */
 }
