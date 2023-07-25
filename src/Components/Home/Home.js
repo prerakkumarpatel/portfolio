@@ -8,7 +8,7 @@ function Home() {
       // Calculate the current page based on the scroll position
       const pageHeight = window.innerHeight;
       const scrollPosition = window.scrollY;
-      const currentPage = Math.ceil(scrollPosition / pageHeight + 0.4);
+      const currentPage = scrollPosition / pageHeight;
 
       setCurrentPage(currentPage);
       document.documentElement.style.setProperty("--scroll", `${currentPage}`);

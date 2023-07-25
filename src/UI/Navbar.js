@@ -3,10 +3,13 @@ import React, { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [links, setLinks] = useState([
-    "Home",
-    "About",
-    "Services",
-    "Contact",
+    "Home   ",
+    "About   ",
+    "Home   ",
+    "About   ",
+    "Home   ",
+    "About   ",
+
     // Add more links as needed
   ]);
 
