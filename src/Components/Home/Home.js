@@ -27,7 +27,7 @@ function Home() {
 
   return (
     <div className={classes.home}>
-      <h1>Home</h1>
+      <h1>Home {`${currentPage}`}</h1>
     </div>
   );
 }

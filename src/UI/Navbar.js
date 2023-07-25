@@ -1,8 +1,7 @@
 import classes from "./Navbar.module.css";
-import React, { useState, useEffect } from "react";
 
 const Navbar = () => {
-  const [links, setLinks] = useState([
+  const links = [
     "Home   ",
     "About   ",
     "Home   ",
@@ -11,7 +10,7 @@ const Navbar = () => {
     "About   ",
 
     // Add more links as needed
-  ]);
+  ];
 
   return (
     <div className={classes.navbarcontainer}>
