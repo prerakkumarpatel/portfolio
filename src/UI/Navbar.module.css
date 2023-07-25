@@ -1,5 +1,5 @@
-.navlink {
-  transform: translateY(-calc((var(--scroll) * 15)-2px));
+/* .navlink {
+  transform: translateY(-(var(--scroll) * 15));
 }
 .navbar {
   background-color: black;
@@ -23,6 +23,7 @@
   margin: 10px 20px;
   display: block;
 }
+ */
 
 /* .App {
   font-family: sans-serif;
@@ -99,3 +100,53 @@ li {
 li:hover {
   text-decoration: underline;
 } */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbarcontainer {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+ul {
+  transform: translateX(calc(var(--scroll) * -80px));
+  display: inline-flex;
+}
+
+.navbar {
+  background-color: black;
+  color: chartreuse;
+  display: flex;
+  width: fit-content;
+  /* overflow: hidden; */
+  margin: 10px auto;
+  max-width: 60px;
+  text-align: center;
+  font-size: medium;
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  border-radius: 30px;
+  height: 40px;
+  padding: 5px 10px;
+}
+
+.navbar-link {
+  content: calc(var(--scroll) * 80px);
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+  width: 70px;
+  text-decoration: none;
+  color: #fefdfd;
+  opacity: 0.5;
+}
+
+.navbar-link:hover {
+  opacity: 1;
+}

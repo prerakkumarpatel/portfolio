@@ -9,7 +9,6 @@ import Navbar from "./UI/Navbar";
 
 function App() {
   const [load, upadateLoad] = useState(true);
-
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
@@ -20,14 +19,18 @@ function App() {
 
   return (
     <ThemeProvider>
-      <div className="App">
-        {load && <Loader load />}
+      {load && <Loader load />}
 
-        <Navbar />
-        <Home />
-        <About />
-        <Footer />
-      </div>
+      <Navbar />
+      <Home>1</Home>
+      <About />
+
+      <Home>2</Home>
+      <About />
+
+      <Home>3</Home>
+      <About />
+      <Footer />
     </ThemeProvider>
   );
 }
