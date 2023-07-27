@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import classes from "./Home.module.css";
+import Type from "../../UI/TypeWriter";
 function Home() {
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -27,7 +28,27 @@ function Home() {
 
   return (
     <div className={classes.home}>
-      <h1>Home {`${currentPage}`}</h1>
+      <h1>Home </h1>
+      <div>
+        <Type />
+      </div>
+      {/* <div style={{ padding: 50, textAlign: "left" }}>
+       
+      </div> */}
+      {/* 
+      <div md={7} className="home-header">
+        <h1 style={{ paddingBottom: 15 }} className="heading">
+          Hello !{" "}
+          <span className="wave" role="img" aria-labelledby="wave">
+            👋🏻
+          </span>
+        </h1>
+
+        <h1 className="heading-name">
+          Myself
+          <strong className="main-name"> Prerakkumar Patel</strong>
+        </h1>
+      </div> */}
     </div>
   );
 }

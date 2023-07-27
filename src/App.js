@@ -22,13 +22,13 @@ function App() {
       {load && <Loader load />}
 
       <Navbar />
-      <Home>1</Home>
+      <Home></Home>
       <About />
 
-      <Home>2</Home>
+      <Home></Home>
       <About />
 
-      <Home>3</Home>
+      <Home></Home>
       <About />
       <Footer />
     </ThemeProvider>
