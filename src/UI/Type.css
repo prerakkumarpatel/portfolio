@@ -1,0 +1,16 @@
+/* Type.css */
+.typewriter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust this to the desired height */
+  background-color: #f1f1f1; /* Change this to your preferred background color */
+  font-family: "Arial", sans-serif; /* Use your desired font-family */
+}
+
+/* Optional: Style the text within the typewriter effect */
+.typewriter-container .Typewriter__wrapper {
+  font-size: 35px; /* Adjust this to your preferred font size */
+  font-weight: bold; /* Use your desired font weight */
+  color: #333; /* Adjust this to your preferred text color */
+}
