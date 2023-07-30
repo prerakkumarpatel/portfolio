@@ -2,4 +2,5 @@
   height: 100vh;
   background: --bg-color;
   padding-top: 8vh;
+  font-family: inherit;
 }

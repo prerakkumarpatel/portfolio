@@ -100,10 +100,6 @@ li {
 li:hover {
   text-decoration: underline;
 } */
-body {
-  margin: 0;
-  padding: 0;
-}
 
 .navbarcontainer {
   position: sticky;
@@ -123,7 +119,7 @@ ul {
 
   width: fit-content;
   /* overflow: hidden; */
-  margin: 5px auto;
+  margin: 1vw auto;
   width: 10vw;
   text-align: left;
   font-size: medium;
@@ -132,8 +128,8 @@ ul {
   left: 45%;
 
   border-radius: 30px;
-  height: 40px;
-  padding: 5px 0px;
+  height: 6vh;
+  padding-bottom: 0.5vh;
 }
 
 .navbar-link {
@@ -141,7 +137,7 @@ ul {
   list-style: none;
 
   display: inline-block;
-  font-size: 18px;
+  font-size: 3vh;
   width: 15vw;
   text-decoration: none;
 }

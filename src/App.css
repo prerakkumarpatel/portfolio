@@ -2,4 +2,10 @@ html {
   --bg-color: rgb(190, 184, 247);
   --bg-color-secondary: rgb(176, 59, 59);
   overflow-x: hidden;
+  font-family: "Lora", serif !important;
+  font-family: "Noto Serif Display", serif;
+  font-family: "Playfair Display", serif;
+}
+body {
+  font-family: "Crimson Pro", serif;
 }
