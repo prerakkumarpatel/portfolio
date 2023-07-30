@@ -6,8 +6,6 @@ const Navbar = () => {
     "About   ",
     "Home   ",
     "About   ",
-    "Home   ",
-    "About   ",
 
     // Add more links as needed
   ];

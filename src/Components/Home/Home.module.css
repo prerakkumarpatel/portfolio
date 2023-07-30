@@ -1,5 +1,5 @@
 .home {
-  min-height: 100vh;
-  background: #a1f5b3;
-  padding-top: 0px;
+  height: 100vh;
+  background: --bg-color;
+  padding-top: 8vh;
 }

@@ -1,4 +1,5 @@
-.home {
-  min-height: 100vh;
-  background: #f9a6a6;
+.about {
+  height: 100vh;
+  background-color: var(--bg-color-secondary);
+  padding-top: 8vh;
 }

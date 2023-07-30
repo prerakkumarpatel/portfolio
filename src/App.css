@@ -1,0 +1,5 @@
+html {
+  --bg-color: rgb(190, 184, 247);
+  --bg-color-secondary: rgb(176, 59, 59);
+  overflow-x: hidden;
+}

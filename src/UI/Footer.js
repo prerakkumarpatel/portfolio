@@ -16,7 +16,13 @@ function Footer() {
   let year = date.getFullYear();
 
   return (
-    <Navbar expand="sm" sticky="bottom" bg="dark" data-bs-theme="dark">
+    <Navbar
+      expand="sm"
+      sticky="bottom"
+      bg="dark"
+      data-bs-theme="dark"
+      className={classes.footer}
+    >
       <NavLink className={`${classes["footer-copyright"]} me-auto `}>
         Copyright © {year} Prerak
       </NavLink>

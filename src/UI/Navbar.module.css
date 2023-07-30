@@ -122,7 +122,7 @@ ul {
   display: flex;
 
   width: fit-content;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 5px auto;
   width: 10vw;
   text-align: left;
@@ -144,15 +144,9 @@ ul {
   font-size: 18px;
   width: 15vw;
   text-decoration: none;
-  color: #fd0303;
-  opacity: 0.5;
 }
 a {
   text-decoration: none;
-
-  color: #fd0303;
+  color: --bg-color;
   font-weight: 900;
-}
-.navbar-link:hover {
-  opacity: 1;
 }

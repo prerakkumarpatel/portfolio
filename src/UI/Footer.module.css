@@ -6,16 +6,18 @@
   margin-left: 2vw;
   color: aliceblue;
 }
-/* .footer {
+.footer {
   position: fixed;
   bottom: 0;
 
-  margin-bottom: 0.2vh !important;
-  font-size: 2vh;
+  padding: 0 0.6vw !important;
+
+  font-size: 3vh;
 
   width: 100vw;
   vertical-align: middle;
 }
+/*  
 
 .footer-icons > ul {
   margin: 0;
